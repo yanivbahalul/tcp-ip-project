@@ -1,0 +1,22 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 10000
+  },
+  "client": {
+    "host": "192.168.0.106",
+    "port": 10000
+  },
+  "limits": {
+    "max_message_size": 4096,
+    "read_timeout": 30.0,
+    "max_name_length": 50,
+    "rate_limit_messages_per_second": 10,
+    "rate_limit_window_seconds": 1.0
+  },
+  "logging": {
+    "level": "INFO",
+    "log_to_file": false,
+    "log_file": "server.log"
+  }
+}

@@ -1,0 +1,20 @@
+msg_id,app_protocol,src_app,src_port,dst_app,dst_port,message,timestamp
+1,HTTP,client_browser,54321,web_server,80,GET /index.html HTTP/1.1,0.005
+2,HTTP,web_server,80,client_browser,54321,HTTP/1.1 200 OK,0.012
+3,HTTP,client_browser,54321,web_server,80,GET /css/styles.css HTTP/1.1,0.025
+4,HTTP,web_server,80,client_browser,54321,HTTP/1.1 200 OK,0.035
+5,HTTP,client_browser,54321,web_server,80,GET /js/app.js HTTP/1.1,0.045
+6,HTTP,web_server,80,client_browser,54321,HTTP/1.1 200 OK,0.055
+7,HTTP,client_browser,54321,web_server,80,GET /images/logo.png HTTP/1.1,0.065
+8,HTTP,web_server,80,client_browser,54321,HTTP/1.1 200 OK,0.075
+9,HTTP,client_browser,54321,web_server,80,POST /api/login HTTP/1.1,0.085
+10,HTTP,web_server,80,client_browser,54321,HTTP/1.1 200 OK,0.095
+11,HTTP,client_browser,54321,web_server,80,GET /dashboard HTTP/1.1,0.105
+12,HTTP,web_server,80,client_browser,54321,HTTP/1.1 200 OK,0.115
+13,HTTP,client_browser,54321,web_server,80,GET /api/user/data HTTP/1.1,0.125
+14,HTTP,web_server,80,client_browser,54321,HTTP/1.1 200 OK,0.135
+15,HTTP,client_browser,54321,web_server,80,GET /favicon.ico HTTP/1.1,0.145
+16,HTTP,web_server,80,client_browser,54321,HTTP/1.1 404 Not Found,0.155
+17,HTTP,client_browser,54321,web_server,80,GET /fonts/roboto.woff2 HTTP/1.1,0.165
+18,HTTP,web_server,80,client_browser,54321,HTTP/1.1 200 OK,0.175
+19,HTTP,client_browser,54321,web_server,80,POST /api/logs HTTP/1.1,0.185
