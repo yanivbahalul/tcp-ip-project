@@ -1,0 +1,41 @@
+msg_id,app_protocol,src_port,dst_port,message,timestamp
+1,DHCP,68,67,DHCP Discover - Client searching for DHCP server,0.01
+1,DHCP,67,68,DHCP Offer - Server offering IP 192.168.1.100,0.026
+1,DHCP,68,67,DHCP Request - Client requesting IP 192.168.1.100,0.042
+1,DHCP,67,68,DHCP ACK - Server acknowledging IP 192.168.1.100,0.06
+2,DHCP,68,67,DHCP Discover - Client searching for DHCP server,0.077
+2,DHCP,67,68,DHCP Offer - Server offering IP 192.168.1.101,0.09
+2,DHCP,68,67,DHCP Request - Client requesting IP 192.168.1.101,0.108
+2,DHCP,67,68,DHCP ACK - Server acknowledging IP 192.168.1.101,0.127
+3,DHCP,68,67,DHCP Discover - Client searching for DHCP server,0.14
+3,DHCP,67,68,DHCP Offer - Server offering IP 192.168.1.102,0.154
+3,DHCP,68,67,DHCP Request - Client requesting IP 192.168.1.102,0.173
+3,DHCP,67,68,DHCP ACK - Server acknowledging IP 192.168.1.102,0.189
+4,DHCP,68,67,DHCP Discover - Client searching for DHCP server,0.206
+4,DHCP,67,68,DHCP Offer - Server offering IP 192.168.1.103,0.222
+4,DHCP,68,67,DHCP Request - Client requesting IP 192.168.1.103,0.237
+4,DHCP,67,68,DHCP ACK - Server acknowledging IP 192.168.1.103,0.252
+5,DHCP,68,67,DHCP Discover - Client searching for DHCP server,0.265
+5,DHCP,67,68,DHCP Offer - Server offering IP 192.168.1.104,0.285
+5,DHCP,68,67,DHCP Request - Client requesting IP 192.168.1.104,0.301
+5,DHCP,67,68,DHCP ACK - Server acknowledging IP 192.168.1.104,0.318
+5,DHCP,68,67,DHCP Release - Client releasing IP 192.168.1.104,0.338
+6,DHCP,67,68,DHCP Offer - Server offering IP 192.168.1.105,0.374
+6,DHCP,68,67,DHCP Request - Client requesting IP 192.168.1.105,0.388
+6,DHCP,67,68,DHCP ACK - Server acknowledging IP 192.168.1.105,0.401
+7,DHCP,68,67,DHCP Discover - Client searching for DHCP server,0.414
+7,DHCP,67,68,DHCP Offer - Server offering IP 192.168.1.106,0.429
+7,DHCP,68,67,DHCP Request - Client requesting IP 192.168.1.106,0.445
+7,DHCP,67,68,DHCP ACK - Server acknowledging IP 192.168.1.106,0.461
+8,DHCP,68,67,DHCP Discover - Client searching for DHCP server,0.477
+8,DHCP,67,68,DHCP Offer - Server offering IP 192.168.1.107,0.492
+8,DHCP,68,67,DHCP Request - Client requesting IP 192.168.1.107,0.511
+8,DHCP,67,68,DHCP NAK - Server denying IP request for 192.168.1.107,0.525
+9,DHCP,68,67,DHCP Discover - Client searching for DHCP server,0.54
+9,DHCP,67,68,DHCP Offer - Server offering IP 192.168.1.108,0.559
+9,DHCP,68,67,DHCP Request - Client requesting IP 192.168.1.108,0.579
+9,DHCP,67,68,DHCP ACK - Server acknowledging IP 192.168.1.108,0.596
+10,DHCP,68,67,DHCP Discover - Client searching for DHCP server,0.615
+10,DHCP,67,68,DHCP Offer - Server offering IP 192.168.1.109,0.633
+10,DHCP,68,67,DHCP Request - Client requesting IP 192.168.1.109,0.647
+10,DHCP,67,68,DHCP ACK - Server acknowledging IP 192.168.1.109,0.665
