@@ -195,7 +195,7 @@ class Y2KPinkPaletteGUI:
         tk.Label(content_frame, text="Server IP:", bg=self.palette["dark_grey"],
                  fg=self.palette["white"], font=self.f_norm).pack()
         self.input_server_ip = tk.Entry(content_frame, **self.login_entry_style)
-        self.input_server_ip.insert(0, "127.0.0.1")
+        self.input_server_ip.insert(0, "192.168.0.106")
         self.input_server_ip.pack(pady=5)
 
         tk.Label(content_frame, text="Port:", bg=self.palette["dark_grey"],
