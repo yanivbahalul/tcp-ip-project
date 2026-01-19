@@ -1,7 +1,7 @@
 import socket
 import threading
 
-DEFAULT_HOST = '192.168.0.106'
+DEFAULT_HOST = '0.0.0.0'
 DEFAULT_PORT = 10000
 BUFFER_SIZE = 1024
 ENCODING = 'utf-8'
