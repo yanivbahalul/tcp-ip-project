@@ -2,8 +2,8 @@ import socket
 import threading
 import sys
 
-HOST = '127.0.0.1'
-PORT = 55555
+HOST = '192.168.0.106'
+PORT = 10000
 BUFFER_SIZE = 1024
 ENCODING = 'utf-8'
 
